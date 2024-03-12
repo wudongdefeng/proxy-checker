@@ -21,7 +21,7 @@ max_connections = 512
 # Example:
 # check_website = "https://google.com"
 # check_website = "https://checkip.amazonaws.com"
-check_website = "https://httpbin.smp.io/ip"
+check_website = "https://api.telegram.org/"
 
 # Set to false to sort proxies alphabetically.
 sort_by_speed = true
