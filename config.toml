@@ -94,7 +94,7 @@ sources = [
 ]
 
 [socks4]
-enabled = true
+enabled = false
 sources = [
     # Local proxy list example
     # "./socks4_proxies.txt",
