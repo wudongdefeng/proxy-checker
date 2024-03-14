@@ -147,7 +147,7 @@ async def main() -> None:
     await output.save_proxies(storage=storage, settings=settings)
 
     logger.info(
-        "Thank you for using https://github.com/monosans/proxy-scraper-checker"
+        "Job is done！"
     )
 
 
