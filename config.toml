@@ -21,7 +21,7 @@ max_connections = 512
 # Example:
 # check_website = "https://google.com"
 # check_website = "https://checkip.amazonaws.com"
-check_website = "https://api.telegram.org/"
+check_website = "https://api.m.jd.com/"
 
 # Set to false to sort proxies alphabetically.
 sort_by_speed = true
@@ -40,7 +40,7 @@ debug = false
 # This option is ignored in Docker.
 path = "./out"
 
-json = true
+json = false
 txt = true
 
 # If you have sources with a protocol prefix, such as socks5://127.0.0.1:1050, you can add them to any of these sections.
