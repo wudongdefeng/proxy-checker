@@ -26,6 +26,6 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         sh start.sh
-        git add .
+        git add /home/runner/work/proxy-checker/proxy-checker/out/
         git commit "update"
         git push -u origin main
