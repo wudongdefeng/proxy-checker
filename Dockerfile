@@ -1,5 +1,5 @@
 # hadolint global ignore=DL3008,DL3013,DL4006
-FROM docker.io/python:3.12-slim-bookworm as python-base-stage
+FROM docker.io/python:3.13-slim-bookworm as python-base-stage
 
 ENV \
   PIP_DISABLE_PIP_VERSION_CHECK=1 \
