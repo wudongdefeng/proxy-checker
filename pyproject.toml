@@ -27,14 +27,14 @@ platformdirs = "<5"
 rich = ">=12.3,<14"
 tomli = { version = "<3", python = "<3.11" }
 typing-extensions = "^4.12"
-uvloop = { version = ">=0.14,<0.21", optional = true, markers = "implementation_name == 'cpython' and (sys_platform == 'darwin' or sys_platform == 'linux')" }
+uvloop = { version = ">=0.14,<0.22", optional = true, markers = "implementation_name == 'cpython' and (sys_platform == 'darwin' or sys_platform == 'linux')" }
 
 [tool.poetry.extras]
 non-termux = ["aiodns", "uvloop"]
 termux = []
 
 [tool.poetry.group.dev.dependencies]
-mypy = "1.11.2"
+mypy = "1.12.0"
 ruff = "0.6.9"
 tomli = "2.0.2"
 types-aiofiles = "23.2.0.20240623"
@@ -43,4 +43,4 @@ types-aiofiles = "23.2.0.20240623"
 optional = true
 
 [tool.poetry.group.nuitka.dependencies]
-nuitka = "2.4.8"
+nuitka = "2.4.9"
