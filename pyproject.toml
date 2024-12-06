@@ -35,7 +35,7 @@ termux = []
 
 [tool.poetry.group.dev.dependencies]
 mypy = "1.13.0"
-ruff = "0.8.1"
+ruff = "0.8.2"
 tomli = "2.2.1"
 types-aiofiles = "23.2.0.20240623"
 
@@ -43,4 +43,4 @@ types-aiofiles = "23.2.0.20240623"
 optional = true
 
 [tool.poetry.group.nuitka.dependencies]
-nuitka = "2.5.4"
+nuitka = "2.5.6"
