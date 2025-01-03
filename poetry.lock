@@ -1180,13 +1180,13 @@ files = [
 
 [[package]]
 name = "types-aiofiles"
-version = "23.2.0.20240623"
+version = "24.1.0.20241221"
 description = "Typing stubs for aiofiles"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "types-aiofiles-23.2.0.20240623.tar.gz", hash = "sha256:d515b2fa46bf894aff45a364a704f050de3898344fd6c5994d58dc8b59ab71e6"},
-    {file = "types_aiofiles-23.2.0.20240623-py3-none-any.whl", hash = "sha256:70597b29fc40c8583b6d755814b2cd5fcdb6785622e82d74ef499f9066316e08"},
+    {file = "types_aiofiles-24.1.0.20241221-py3-none-any.whl", hash = "sha256:11d4e102af0627c02e8c1d17736caa3c39de1058bea37e2f4de6ef11a5b652ab"},
+    {file = "types_aiofiles-24.1.0.20241221.tar.gz", hash = "sha256:c40f6c290b0af9e902f7f3fa91213cf5bb67f37086fb21dc0ff458253586ad55"},
 ]
 
 [[package]]
@@ -1424,4 +1424,4 @@ termux = []
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "547a5432b4eb5511679f5f6bc67b5558ff39e92abae592ddcdb4d8526a475f0c"
+content-hash = "6677c61bdab1a915c21c9236780e34b9a738475c17da85af0fdcd88741629b52"
